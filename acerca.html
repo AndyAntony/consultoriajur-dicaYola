@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter|Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/image1.png" alt="Logo Yola Calle Calla" class="logo">
+        <button class="menu-button">☰</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="areas.html">Áreas de especialización</a></li>
+                <li><a href="guias.html">Guías y consejos</a></li>
+                <li><a href="acerca.html">Acerca de mí</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="full-page-container">
+        <div class="background-section"></div>
+        <div class="text-white"></div>
+        <span class="professional-description">
+            Perfil Profesional Soy Yola Calle Calla, abogada con experiencia en trámites administrativos, bienes muebles e inmuebles, divorcios, asistencia familiar y usucapión. Ofrezco asesoramiento legal personalizado y claro, brindando soluciones efectivas y apoyo constante con un firme compromiso hacia la ética profesional.
+        </span>
+        <span class="tagline1">
+            Justicia y dedicación. Yola Calle Calla, abogada comprometida en defender tus derechos y salvaguardar lo que más valoras.
+        </span>
+
+        <span class="client-commitment">Mi compromiso es contigo y tus derechos.</span>
+
+        <div class="acerca-img1"></div>
+        <div class="acerca-img2"></div>
+        
+        <div class="quote-container">
+            <p class="quote">"Mi objetivo es garantizar que cada cliente reciba una representación justa, resolviendo sus problemas legales con compromiso."</p>
+            <p class="author">— Yola Calle Calla</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <div class="footer-item" onclick="openModal()">Política de privacidad</div>
+            <div class="footer-item">📍 Ubicación</div>
+            <div class="footer-item">⚖️ Leyes</div>
+            <div class="footer-item">📞 Contactos</div>
+            <button class="back-to-top" onclick="scrollToTop()">⬆️</button>
+        </div>
+    </footer>
+    
+    <!-- Modal -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Política de Privacidad</h3>
+            <p>Este sitio web no recopila, almacena ni comparte información personal de los usuarios.</p>
+            <p>No se requiere el registro ni la entrega de datos para navegar o interactuar con el contenido del sitio. Cualquier consulta o interacción con el sitio se realiza sin necesidad de proporcionar información personal.</p>
+            <p>El objetivo es garantizar una experiencia segura y respetuosa de la privacidad del usuario.</p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script> <!-- Asegúrate de enlazar tu JavaScript -->
+</body>
+</html>
